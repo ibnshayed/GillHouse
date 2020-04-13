@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility;
   background: #262626;
 }
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 3.3rem;
 }
 
@@ -95,7 +95,7 @@ nav ul li:nth-child(3) a:hover {
 #menu .menu-header h2 {
   font-size: 6.2rem;
   font-weight: 400;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   text-shadow: 1rem 2rem 1rem #000;
 }
 
@@ -140,14 +140,14 @@ nav ul li:nth-child(3) a:hover {
 #discount .btn {
   font-size: 2.6rem;
   font-weight: 400;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 #discount h3 {
   color: #e1b838;
   font-size: 3.4rem;
   font-weight: 400;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 #specials {
@@ -268,7 +268,7 @@ nav ul li:nth-child(3) a:hover {
   color: #e1b838;
   font-size: 4.5rem;
   font-weight: 400;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 #about .board .card-width {
@@ -315,7 +315,7 @@ nav ul li:nth-child(3) a:hover {
   border-radius: 5%;
   color: #000;
   font-size: 4rem;
-  padding: .7rem 1.3rem;
+  padding: 0.7rem 1.3rem;
 }
 
 #about .social-links .grill-house {
@@ -354,6 +354,9 @@ nav ul li:nth-child(3) a:hover {
   #method .board .card-width {
     width: 94%;
   }
+  #about .emran a {
+    color: #e1b838;
+  }
   #about .board .header {
     font-size: 5rem;
   }
@@ -368,7 +371,7 @@ nav ul li:nth-child(3) a:hover {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 992px) {
   #menu .menu-items p {
     font-size: 1.8rem;
   }
@@ -387,7 +390,7 @@ nav ul li:nth-child(3) a:hover {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   nav ul li {
     font-size: 2rem;
   }
@@ -418,6 +421,10 @@ nav ul li:nth-child(3) a:hover {
   #specials .menu-items .menu-items-price p {
     font-size: 3rem;
   }
+  #method .card-width {
+    width: 90%;
+    margin: 0 auto;
+  }
   #method .board h2 {
     font-size: 4rem;
   }
@@ -446,7 +453,7 @@ nav ul li:nth-child(3) a:hover {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   #opening-party .party {
     margin: 5rem 0 0;
   }
@@ -463,10 +470,10 @@ nav ul li:nth-child(3) a:hover {
     font-size: 2rem;
   }
   #opening-party .food h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   #menu .menu-items h2 {
-    font-size: 4rem;
+    font-size: 7rem;
   }
   #menu .menu-items p {
     font-size: 3rem;
@@ -504,15 +511,14 @@ nav ul li:nth-child(3) a:hover {
   }
 }
 
-@media (max-width: 575px) {
-  #opening-party .food h2 {
-    font-size: 1.9rem;
+@media (max-width: 320px) {
+  nav .img-fluid {
+    margin-left: 2rem;
+    max-width: 50%;
   }
-  #about .social-links .fab {
-    font-size: 1.9rem;
-  }
-  #about .social-links .grill-house {
-    display: inline;
+  nav .navbar-toggler {
+    font-size: 3rem;
+    margin-right: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
